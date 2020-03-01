@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Trade Winds';
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.timer{
+    position: absolute;
+    display: flex;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.field{
+    padding: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0,128,128);
+    border-radius: 5px;
+    color: white;
+}
